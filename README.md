@@ -10,8 +10,7 @@ By Victor Enrique Gil Altamirano
 3. IDE will be displayed in default browser.
 
 
-
-
+Verified Certificate of 1st part: Embedded Systems Essentials with Arm: Getting started can be found in this (link)[https://courses.edx.org/certificates/e5e40fb271f140adbdea0088bc41b6d3].
 
 
 
