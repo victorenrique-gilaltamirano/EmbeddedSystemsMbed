@@ -13,6 +13,52 @@ By Victor Enrique Gil Altamirano
 Verified Certificate of 1st part: Embedded Systems Essentials with Arm: Getting started can be found in this [link](https://courses.edx.org/certificates/e5e40fb271f140adbdea0088bc41b6d3).
 
 
+## Program in Online MBed compiler
+
+1. Enter to studio.keil.arm.com
+
+2. `File...` - `New...` - `MBed Project`.
+
+3. `Example project...` as `empty`, and name the project. finally `Add Project`.
+
+## Using BluePill
+
+1. Select `NUCLEO-F103RB` as Target hardware.
+
+2. Consider pin names as:
+|NUCLEO-F103RB | Blue Pill F103 |
+|--------------|----------------|
+| PA_1         | PA1            |
+| PA_2         | PA2            |
+| ...          | ...            |
+| PA_15        | PA15           |
+| PB_1         | PB1            |
+| ...          | ...            |
+| PC_15        | PC15           |
+
+Check pinout for [Nucleo-F103RB](https://os.mbed.com/platforms/ST-Nucleo-F103RB/) and for [Bluepill-F103](https://microcontrollerslab.com/stm32f103c8t6-blue-pill-pinout-peripherals-programming-features/)
+
+For example, for turning on led in PC13 of bluepill, the code would look like this:
+```
+#include "mbed.h"
+
+DigitalOut LED(PC_13);
+// main() runs in its own thread in the OS
+int main()
+{
+    while (true) {
+        LED =1;
+    }
+}
+```
+
+3. Click `Build project`.
+
+4. Save `bin` file in computer.
+
+5. Use `STM32 ST-LINK Utility` to download from computer to microcntroller.
+
+
 
 
 
