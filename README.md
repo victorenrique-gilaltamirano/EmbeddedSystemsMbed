@@ -26,6 +26,7 @@ Verified Certificate of 1st part: Embedded Systems Essentials with Arm: Getting 
 1. Select `NUCLEO-F103RB` as Target hardware.
 
 2. Consider pin names as:
+```
 | NUCLEO-F103RB | Blue Pill F103 |
 |---------------|---------------|
 | PA_0          | PA0           |
@@ -36,6 +37,7 @@ Verified Certificate of 1st part: Embedded Systems Essentials with Arm: Getting 
 | ...           | ...           |
 | PC_13         | PC13          |
 | ...           | ...           |
+```
 
 Check pinout for [Nucleo-F103RB](https://os.mbed.com/platforms/ST-Nucleo-F103RB/) and for [Bluepill-F103](https://microcontrollerslab.com/stm32f103c8t6-blue-pill-pinout-peripherals-programming-features/)
 
