@@ -15,7 +15,7 @@ int main()
   
   cs = 0; // SELECT the target
   
-  spi.write(0x8F); //send 0x8F device address data
+  spi.write(0x8F); //send 0x8F address data
   
   //store the answer of the Target, in register whoami 0x00
   printf("WHOAMI regsiter  = 0x%X\n", whoami);
