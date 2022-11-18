@@ -1,4 +1,4 @@
-/*Reads temp from DS1631 and displays on PC screen 
+/*Reads temp from DS1631 and displays on LCD screen 
 
 */ 
 
