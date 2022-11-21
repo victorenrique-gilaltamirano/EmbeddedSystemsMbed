@@ -1,7 +1,9 @@
-# Embedded Systems with Mbed Professional Certificate
+# Embedded Systems with Mbed [Professional Certificate](https://credentials.edx.org/credentials/778b2bca14804735851464d9724f0473/)
 By Victor Enrique Gil Altamirano
 
-Verified Certificate of 1st part: Embedded Systems Essentials with Arm: Getting started can be found in this [link](https://courses.edx.org/certificates/e5e40fb271f140adbdea0088bc41b6d3).
+Verified Certificate of 1st part: Embedded Systems Essentials with Arm: Getting Started can be found in this [link](https://courses.edx.org/certificates/e5e40fb271f140adbdea0088bc41b6d3).
+
+Verified Certificate of 2nd part: Embedded Systems Essentials with Arm: Get Practical with Hardware can be found in this [link](https://courses.edx.org/certificates/19440aff9558467db8a1b35884dac5c0).
 
 Full APIs List of Mbed Os can be found [here](https://os.mbed.com/docs/mbed-os/v6.15/apis/index.html).
 
